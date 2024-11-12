@@ -1,0 +1,186 @@
+html a{
+    color: white;
+    text-decoration: none;
+    font-size: calc(15px + 0.390625vw);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    background-color: #3B8686;
+    color: white;
+}
+
+header nav{
+    padding: 1.5vw 2vw 1.5vw 2vw;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.3rem;
+}
+
+header a{
+    display: flex;
+    align-items: center;
+}
+
+header ul{
+    display: flex;
+    align-items: center;
+}
+
+header ul li{
+    margin-right: 2vw;
+}
+
+header ul li.atual{
+    background-color: rgba(255, 255, 255, 0.267);
+    padding: 7px 12px 7px 15px;
+    border-radius: 20px;
+}
+
+header ul li.atual:hover{
+    background-color: rgba(255, 255, 255, 0.35);
+}
+/*----------------------------------------
+                section 1
+------------------------------------------*/
+
+section.banner{
+    display: flex;
+    background: linear-gradient(rgba(146, 230, 186, 0.2),rgb(146, 230, 186, 0.2)), url(src/images/back-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 91vh;
+    align-items: end;
+}
+section.banner div{
+    margin: 0 0 5vw 5vw;
+}
+
+section.banner h1{
+    color: white;
+    font-size: 5.5rem;
+    background-color: #3b868646;
+    padding: 3vw 25px 2vw 25px;
+}
+
+section.banner h1:first-child{
+    margin-right: 25vw;
+}
+
+
+/*------------------------------------
+        section diferenciais
+--------------------------------------*/
+
+.diferenciais{
+    display: flex;
+    justify-content: space-between;
+    margin: 4vw 4vw 5vw 4vw;
+}
+
+.diferenciais div{
+    font-size: 1.7rem;
+    margin: 0 4vw 0 0;
+    text-align: center;
+}
+
+
+.diferenciais div span{
+    color: #3B8686;
+    margin-bottom: 2.5vw;
+    font-size: 4.5rem;
+}
+
+.diferenciais div p{
+    color: #747474;
+    padding: 1vw 5vw 0 5vw;
+    font-size: 1rem;
+    margin-bottom: 1.5vw;
+}
+
+.diferenciais div a{
+    background-color: #3B8686;
+    padding: 10px 30px 10px 30px;
+    border-radius: 5px;
+}
+
+.diferenciais div a:hover{
+    background-color: #337575;
+}
+
+/*--------------------------------------
+        section numeros
+----------------------------------------*/
+
+section.numeros{
+    background: linear-gradient(rgba(94, 255, 172, 0.312),rgb(94, 255, 172, 0.312)), url(src/images/back-numeros.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+    display: flex;
+    font-size: 3rem;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+section.numeros div{
+    padding: 0 3vw 0 2vw;
+}
+
+section.numeros div span{
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+/*------------------------------------
+        section atividades
+--------------------------------------*/
+
+section.atividades{
+    display: flex;
+    padding: 6vw 10vw 4vw 10vw;
+}
+
+section.atividades h3{
+    color: #0B486B;
+    font-size: 3rem;
+    margin-bottom: 2vw;
+}
+
+section.atividades p{
+    color: #747474;
+    font-size: 1.5rem;
+    margin-right: 10vw;
+    margin-bottom: 2vw;
+}
+
+section.atividades a.botao{
+    margin-right: 1vw;
+    background-color: #0B486B;
+    padding: 10px 30px 10px 30px;
+    border-radius: 5px;
+}
+
+/*---------------------------------------
+            Footer
+-----------------------------------------*/
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: #3B8686;
+    padding: 3vw;
+    line-height: 25px;
+}
+
+footer div#logos span{
+    margin: 0 0 1vw 20px;
+    font-size: 2rem;
+}
+
+footer nav{
+    line-height: 30px;
+}
